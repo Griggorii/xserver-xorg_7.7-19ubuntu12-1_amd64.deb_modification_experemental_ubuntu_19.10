@@ -1,7 +1,7 @@
 # xserver-xorg_7.7-19ubuntu12-1_amd64.deb_modification_experemental_ubuntu_19.10_fix_not_tearing
 xserver-xorg_7.7+19ubuntu12-1_amd64.deb linux ubuntu_fix_not_tearing
 
-sudo rm  -Rfv /usr/share/X11/xorg.conf.d /etc/X11/xorg.conf.d && sudo rm /etc/X11/xorg.conf /etc/X11/xorg.conf.failsafe
+sudo rm  -Rfv /etc/X11/xorg.conf.d && sudo rm /etc/X11/xorg.conf /etc/X11/xorg.conf.failsafe
 
 sudo cp libexpat.la /usr/lib/x86_64-linux-gnu
 
