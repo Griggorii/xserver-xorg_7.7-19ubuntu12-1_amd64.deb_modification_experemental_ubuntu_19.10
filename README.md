@@ -1,6 +1,8 @@
 # xserver-xorg_7.7-19ubuntu12-1_amd64.deb_modification_experemental_ubuntu_19.10_fix_not_tearing
 xserver-xorg_7.7+19ubuntu12-1_amd64.deb linux ubuntu_fix_not_tearing
 
+Пока что не работает не устанавливайте дабы избежать поломки системы!
+
 sudo apt install hardinfo -> GPU Drawing test screenshot save
 
 sudo rm  -Rfv /etc/X11/xorg.conf.d && sudo rm /etc/X11/xorg.conf /etc/X11/xorg.conf.failsafe /usr/share/X11/xorg.conf.d/20-intel.conf
