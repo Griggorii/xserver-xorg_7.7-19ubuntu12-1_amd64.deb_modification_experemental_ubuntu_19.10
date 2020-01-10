@@ -7,6 +7,8 @@ sudo cp libexpat.la /usr/lib/x86_64-linux-gnu
 
 sudo dpkg -i xserver-xorg_7.7+19ubuntu12-1_amd64.deb
 
+exit session and reboot , run benchmark programm hardinfo -> GPU Drawing 
+
 ____________________________________________________________________________________________
 
 About example libexpat version example ubuntu version 19.10
