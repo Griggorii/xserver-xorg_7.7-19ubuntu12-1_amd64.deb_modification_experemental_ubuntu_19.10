@@ -3,15 +3,15 @@ xserver-xorg_7.7+19ubuntu12-1_amd64.deb linux ubuntu_fix_not_tearing
 
 Устанавливать нужно сразу два пакета дабы избежать поломки системы! 
 
-dpkg -i *.deb
-
 sudo apt install hardinfo -> GPU Drawing test screenshot save
+
+inpack arhive in folder terminal run
 
 sudo rm  -Rfv /etc/X11/xorg.conf.d && sudo rm /etc/X11/xorg.conf /etc/X11/xorg.conf.failsafe /usr/share/X11/xorg.conf.d/20-intel.conf
 
 sudo cp libexpat.la /usr/lib/x86_64-linux-gnu
 
-sudo dpkg -i xserver-xorg_7.7+19ubuntu12-1_amd64.deb
+sudo dpkg -i *.deb
 
 exit session and reboot , run benchmark programm hardinfo -> GPU Drawing
 
