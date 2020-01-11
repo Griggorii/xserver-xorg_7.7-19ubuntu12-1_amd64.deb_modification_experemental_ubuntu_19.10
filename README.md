@@ -1,9 +1,9 @@
 # xserver-xorg_7.7-19ubuntu12-1_amd64.deb_modification_experemental_ubuntu_19.10_fix_not_tearing
 xserver-xorg_7.7+19ubuntu12-1_amd64.deb linux ubuntu_fix_not_tearing
 
-Пока что не работает не устанавливайте дабы избежать поломки системы! 
+Устанавливать нужно сразу два пакета дабы избежать поломки системы! 
 
-Demo xorg-server prototip ubuntu 19.10 structure no xorg.conf https://radikal.ru/video/iqiN0DqFDBg
+dpkg -i *.deb
 
 sudo apt install hardinfo -> GPU Drawing test screenshot save
 
@@ -13,8 +13,9 @@ sudo cp libexpat.la /usr/lib/x86_64-linux-gnu
 
 sudo dpkg -i xserver-xorg_7.7+19ubuntu12-1_amd64.deb
 
-exit session and reboot , run benchmark programm hardinfo -> GPU Drawing 
+exit session and reboot , run benchmark programm hardinfo -> GPU Drawing
 
+Demo xorg-server prototip ubuntu 19.10 structure no xorg.conf https://radikal.ru/video/iqiN0DqFDBg
 ____________________________________________________________________________________________
 
 About example libexpat version example ubuntu version 19.10
