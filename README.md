@@ -17,6 +17,9 @@ exit session and reboot , run benchmark programm hardinfo -> GPU Drawing
 
 Для тех у кого видео карта не интел можете удалить xserver-xorg-video-intel
 
+Вообщем что отличает этот драивер от простого манипулирования конфигами , он стабилен и не будет запущенная игра из wine 
+вдруг неожиданно зависать на мертво.
+
 Demo xorg-server prototip ubuntu 19.10 structure no xorg.conf https://radikal.ru/video/iqiN0DqFDBg
 ____________________________________________________________________________________________
 
