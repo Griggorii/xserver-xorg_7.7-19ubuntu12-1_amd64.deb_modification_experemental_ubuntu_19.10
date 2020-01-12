@@ -7,13 +7,15 @@ sudo apt install hardinfo -> GPU Drawing test screenshot save
 
 inpack arhive in folder terminal run
 
-sudo rm  -Rfv /etc/X11/xorg.conf.d && sudo rm /etc/X11/xorg.conf /etc/X11/xorg.conf.failsafe /usr/share/X11/xorg.conf.d/20-intel.conf
+sudo rm  -Rfv /etc/X11/xorg.conf.d && sudo rm /etc/X11/xorg.conf /etc/X11/xorg.conf.failsafe /usr/share/X11/xorg.conf.d/20-intel.conf && sudo apt purge intel-microcode va-driver-all xserver-xorg-video-intel i965-va-driver -y
 
 sudo cp libexpat.la /usr/lib/x86_64-linux-gnu
 
 sudo dpkg -i *.deb
 
 exit session and reboot , run benchmark programm hardinfo -> GPU Drawing
+
+Для тех у кого видео карта не интел можете удалить xserver-xorg-video-intel
 
 Demo xorg-server prototip ubuntu 19.10 structure no xorg.conf https://radikal.ru/video/iqiN0DqFDBg
 ____________________________________________________________________________________________
