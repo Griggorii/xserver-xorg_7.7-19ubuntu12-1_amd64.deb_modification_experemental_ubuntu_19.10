@@ -1,7 +1,7 @@
 # xserver-xorg_7.7-19ubuntu12-1_amd64.deb_modification_experemental_ubuntu_19.10_fix_not_tearing
 xserver-xorg_7.7+19ubuntu12-1_amd64.deb linux ubuntu_fix_not_tearing
 
-Устанавливать нужно сразу два пакета дабы избежать поломки системы! 
+Только для Ubuntu версии 19.10. Устанавливать нужно сразу два пакета дабы избежать поломки системы!
 
 sudo apt install hardinfo -> GPU Drawing test screenshot save
 
